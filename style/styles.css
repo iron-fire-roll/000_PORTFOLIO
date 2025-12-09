@@ -682,9 +682,36 @@ form {
             left: -14px;
             right: auto;
         }
+    .resume-qr img {
+        width: 55px;
+        height: 55px;
+        padding: 2px;
+    }
 }
 .career-box {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
 }
+/* ヘッダーを落ち着いた印象に */
+.resume-header {
+    background: #3a3a3a; /* 好みで変更可 */
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+/* QRコードを右上に */
+.resume-qr {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+    .resume-qr img {
+        width: 80px;
+        height: 80px;
+        background: white;
+        padding: 4px;
+        border-radius: 6px;
+        box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    }

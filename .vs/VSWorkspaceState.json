@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\images",
+    "\\scripts",
+    "\\style"
   ],
-  "SelectedNode": "\\D:\\80_MyPage\\Local",
+  "SelectedNode": "\\style\\styles.css",
   "PreviewInSolutionExplorer": false
 }
