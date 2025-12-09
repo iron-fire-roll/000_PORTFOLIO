@@ -24,9 +24,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#profile">Profile</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#summary">Summary</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skillmap">SkillMap</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#career-summary">CareerSummary</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#career">Job career</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
         </ul>
@@ -35,7 +37,7 @@
   </nav>
 
   <!-- Masthead-->
-  <header class="masthead resume-header">
+  <header class="masthead resume-header" id="resume">
     <div class="container h-100 position-relative">
 
       <!-- QRコード（右上固定配置） -->
@@ -84,8 +86,6 @@
             要件定義から設計・実装・テスト・運用まで一貫して対応でき、
             技術選定や効率化の推進など業務改善にも取り組んでいます。
           </p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#skills">Get Started!</a>
-
         </div>
       </div>
     </div>
@@ -396,47 +396,52 @@
   </section>
 
   <!-- Skill Map -->
-  <div class="col-lg-12 mt-5">
-    <h3 class="h4 mb-3 text-center">Skill Map（実務経験・得意領域）</h3>
+  <section class="page-section" id="skillmap">
+    <div class="container">
+      <div class="col-lg-12 mt-5">
+        <h3 class="h4 mb-3 text-center">Skill Map（実務経験・得意領域）</h3>
 
-    <table class="table table-bordered table-striped">
-      <thead class="thead-light">
-        <tr>
-          <th>カテゴリ</th>
-          <th>技術</th>
-          <th>実務経験</th>
-          <th>補足</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>言語</td>
-          <td>C#</td>
-          <td>10年以上</td>
-          <td>Web API / バッチ処理</td>
-        </tr>
-        <tr>
-          <td>フロントエンド</td>
-          <td>Nuxt3 / Vue</td>
-          <td>2年以上</td>
-          <td>ダッシュボード開発、データ連携UI</td>
-        </tr>
-        <tr>
-          <td>バックエンド</td>
-          <td>.NET / Python</td>
-          <td>10年以上</td>
-          <td>サーバー監視、ETL、API連携など</td>
-        </tr>
-        <tr>
-          <td>DB</td>
-          <td>PostgreSQL / SQL Server</td>
-          <td>10年以上</td>
-          <td>パフォーマンス改善・集計クエリ作成</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+        <table class="table table-bordered table-striped">
+          <thead class="thead-light">
+            <tr>
+              <th>カテゴリ</th>
+              <th>技術</th>
+              <th>実務経験</th>
+              <th>補足</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>言語</td>
+              <td>C#</td>
+              <td>10年以上</td>
+              <td>Web API / バッチ処理</td>
+            </tr>
+            <tr>
+              <td>フロントエンド</td>
+              <td>Nuxt3 / Vue</td>
+              <td>2年以上</td>
+              <td>ダッシュボード開発、データ連携UI</td>
+            </tr>
+            <tr>
+              <td>バックエンド</td>
+              <td>.NET / Python</td>
+              <td>10年以上</td>
+              <td>サーバー監視、ETL、API連携など</td>
+            </tr>
+            <tr>
+              <td>DB</td>
+              <td>PostgreSQL / SQL Server</td>
+              <td>10年以上</td>
+              <td>パフォーマンス改善・集計クエリ作成</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
 
+  <!-- Job career-->
   <section class="page-section bg-light" id="career-summary">
     <div class="container">
       <div class="row justify-content-center">

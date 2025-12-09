@@ -682,11 +682,6 @@ form {
             left: -14px;
             right: auto;
         }
-    .resume-qr img {
-        width: 55px;
-        height: 55px;
-        padding: 2px;
-    }
 }
 .career-box {
     display: flex;
@@ -705,6 +700,7 @@ form {
     position: absolute;
     top: 20px;
     right: 20px;
+    z-index: 10;
 }
 
     .resume-qr img {
@@ -715,3 +711,19 @@ form {
         border-radius: 6px;
         box-shadow: 0 0 4px rgba(0,0,0,0.2);
     }
+
+/* ★スマホ版（文章と衝突しないよう通常フローに変更） */
+@media (max-width: 768px) {
+
+    .resume-qr {
+        position: static; /* ← 固定を解除して通常の位置に */
+        text-align: center; /* ← 中央寄せ（右寄せも可） */
+        margin-bottom: 15px;
+    }
+
+        .resume-qr img {
+            width: 60px;
+            height: 60px;
+            padding: 3px;
+        }
+}
