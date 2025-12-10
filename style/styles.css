@@ -203,22 +203,15 @@ button.bg-primary:focus {
         background-color: transparent;
     }
 
-        #main-nav .navbar-brand {
-            color: rgba(255, 255, 255, 0.7);
-        }
 
-            #main-nav .navbar-brand:hover {
-                color: #fff;
-            }
+
 
         #main-nav .navbar-nav .nav-item .nav-link {
-            color: rgba(255, 255, 255, 0.7);
+            
             padding: 0 1rem;
         }
 
-            #main-nav .navbar-nav .nav-item .nav-link:hover {
-                color: #fff;
-            }
+
 
         #main-nav .navbar-nav .nav-item:last-child .nav-link {
             padding-right: 0;
@@ -249,7 +242,7 @@ button.bg-primary:focus {
 header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 4.5rem);
-    background: rgba(92, 77, 66, 0.8);
+    background: #FFFFFF;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
